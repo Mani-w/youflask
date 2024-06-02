@@ -10,7 +10,7 @@ Each node is running on a virtual client on a proxmox server but the NFS server 
 </br>
 The part concerning the NFS is at the end of the *deployment.yml* file where the mountpoint in the pod is specified *(volumeMounts:)* and the NFS servers IP and path is specified *(volumes:)*.</br>
 </br>
-I've included the Dockerfile and deployment.yml I used but with some private information removed:
+I've included the Dockerfile and deployment.yml I used but with some information removed:
 
 
 #### Dockerfile:
