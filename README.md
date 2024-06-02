@@ -9,7 +9,9 @@ In my case it was enough to have 2 replicas, one on each worker.</br>
 Each node is running on a virtual client on a proxmox server but the NFS server is runnning on a Raspberry Pi.</br>
 </br>
 The part concerning the NFS is at the end of the *deployment.yml* file where the mountpoint in the pod is specified *(volumeMounts:)* and the NFS servers IP and path is specified *(volumes:)*.</br>
-Currently the NFS is accessible by all on 
+</br>
+I've included the Dockerfile and deployment.yml I used but with some private information removed:
+
 
 #### Dockerfile:
 <pre>
